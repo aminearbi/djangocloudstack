@@ -1,0 +1,43 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% for vm in vms %}
+<form class="form-horizontal" >
+<div class="form-group">
+                    <label for="id_username" class="col-md-2 control-label">Id</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.0 }}</label>
+                        
+                    
+                </div>
+<div class="form-group">
+                    <label for="a2" class="col-md-2 control-label">Name</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.1 }}</label>
+                </div>
+<div class="form-group">
+                    <label for="a3" class="col-md-2 control-label">State</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.2 }}</label>
+                </div>
+<div class="form-group">
+                    <label for="a4" class="col-md-2 control-label">Template</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.3 }}</label>
+                </div>
+<div class="form-group">
+                    <label for="a5" class="col-md-2 control-label">Created At</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.4 }}</label>
+                </div>
+<div class="form-group">
+                    <label for="a6" class="col-md-2 control-label">Hypervisor</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.5 }}</label>
+                </div>
+<div class="form-group">
+                    <label for="a7" class="col-md-2 control-label">Memory</label>
+                    <label for="id_username" class="col-md-4 control-label">{{ vm.6 }}</label>
+                </div>
+</form>
+<div class="progress">
+  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 100%"></div>
+</div>
+{% endfor %}
+
+{% endblock %}

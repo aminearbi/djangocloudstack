@@ -1,0 +1,30 @@
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\attach_server.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_debugger.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_repl.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_util.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\__init__.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\__main__.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\deployment-updated-orig-prefix.txt
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.config
+c:\Users\Yashiro\Documents\Visual Studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.debug.config
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\attach_server.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_repl.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_util.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\__init__.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\__main__.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\deployment-updated-orig-prefix.txt
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.config
+C:\Users\Amine\Desktop\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.debug.config

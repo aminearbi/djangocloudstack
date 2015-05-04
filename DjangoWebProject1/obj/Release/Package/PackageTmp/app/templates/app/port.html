@@ -1,0 +1,81 @@
+{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>List of Active Port Forwarding Rules</h2>
+<table class="table">
+    <tr>
+        <th>IP Address</th>
+        <th>Private Port</th>
+        
+        <th>Public Port</th>
+
+        <th>Protocol</th>
+
+        <th>State</th>
+
+        <th>Vm Name</th>
+        
+        </tr>
+    {% for vm in rules %}
+    <tr>
+        <td>{{vm.0}}</td>
+         <td>{{vm.1}}</td>
+         <td>{{vm.2}}</td>
+         <td>{{vm.3}}</td>
+         <td>{{vm.4}}</td>
+         <td>{{vm.5}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<form method="POST" action="/portSuccess/">
+
+<div class="form-group">
+    <label for="id_username" class="col-md-2 control-label">Liste VMs</label>
+    <div class="col-md-10">
+        <select name ="id" id="id" class="form-control">
+            {% for vm in vms%}
+            <option  value="{{vm.0}}">{{vm.1}}</option>
+            {% endfor %}
+        </select>
+        <br/>
+     </div>
+</div>
+
+
+<div class="form-group">
+   <label for="id_use" class="col-md-2 control-label">Source Port</label>
+   <div class="col-md-10">
+        <input class="form-control"  type="text" id="sport" name="sport"/>
+       
+       <br/>
+    </div>
+</div>
+
+<div class="form-group">
+   <label for="id_use" class="col-md-2 control-label">Destination Port</label>
+   <div class="col-md-10">
+        <input class="form-control" id="dport" name="dport" value="{{dport}}"/>
+       
+       <br/>
+    </div>
+</div>
+
+   <label for="id_use" class="col-md-2 control-label">Protocol</label>
+   <div class="col-md-10">
+            <select class="form-control" id="protocol" name="protocol">
+            <option value="TCP">TCP</option>
+            <option value="UDP">UDP</option>
+        </select>
+       <br/>
+    </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit" class="btn btn-default" />
+                    </div>
+                </div>
+</form>
+
+{% endblock %}

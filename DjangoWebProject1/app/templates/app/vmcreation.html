@@ -1,0 +1,38 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<form action="/createvm/" method="POST">
+    {% csrf_token %}
+    <div class="form-group ">
+        <div class="form-group">
+            
+          
+                <input name="vmname" type="text" placeholder="Name..." class="form-control" />
+            
+        </div>
+        <select class="form-control" name="os">
+            {% for os in ostypes%}
+            <option value="{{os.0}}">{{os.1}}</option>
+            {% endfor %}
+        </select>
+        <br />
+        <select class="form-control" name="zones">
+            {% for zone in zones%}
+            <option value="{{zone.0}}">{{zone.1}}</option>
+            {% endfor %}
+        </select>
+        <br />
+        <select class="form-control" name="templates">
+            {% for temp in templates%}
+            <option value="{{temp.0}}">{{temp.1}}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+
+{% endblock %}

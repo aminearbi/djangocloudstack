@@ -1,0 +1,27 @@
+{% extends "app/layout.html" %}
+{% block content %}
+
+
+
+<form method="POST" action="/chatlive/">
+
+<div class="form-group">
+    <label for="id_username" class="col-md-2 control-label">List of VMs</label>
+    <div class="col-md-10">
+        <select name ="id" id="id" class="form-control">
+            {% for vm in vms%}
+            <option  value="{{vm.id}}">{{vm.name}}</option>
+            {% endfor %}
+        </select>
+        <br/>
+     </div>
+</div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit" class="btn btn-default" />
+                    </div>
+                </div>
+</form>
+
+{% endblock %}
